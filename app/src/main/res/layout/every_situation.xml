@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="v1.qalandia.qalandia.everySituation">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/every_Swipe"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        tools:context=".ever_situation"
+        android:indeterminate="false">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ever_situation" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>
